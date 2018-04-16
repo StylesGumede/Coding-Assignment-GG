@@ -21,5 +21,7 @@ Instructions on how to run the "MessageFeedSimulator" console application.
 
 
 
-
+Assumptions made.
+1. If an error occurrs whilst processing input from the user.txt & tweet.txt files, the application will report the error containing the erroneous line on the console and continue processing other lines.
+2. A user can not follow themselves.
 
