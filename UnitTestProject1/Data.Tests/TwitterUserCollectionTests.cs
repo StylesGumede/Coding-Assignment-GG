@@ -20,7 +20,7 @@ namespace MessageFeedSimulator.Core.Tests.Data.Tests
     {
         private IInfrustructureFactory _infrustructureFactory;
         private StringBuilder _userInputFileMock;
-        private readonly string _usersInputFilePath = $@"{Environment.CurrentDirectory}\user.txt";
+        private readonly string _usersInputFilePath = $@"{Environment.CurrentDirectory}\InputFile\user.txt";
 
         public TwitterUserCollectionTests()
         {

@@ -71,6 +71,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="InputFile\tweet.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="InputFile\user.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

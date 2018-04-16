@@ -18,7 +18,7 @@ namespace MessageFeedSimulator.Core.Tests.Data.Tests
     public class TwitterMessageCollectionTests
     {
         private IInfrustructureFactory _infrustructureFactory;
-        private readonly string _messagesInputFilePath = $@"{Environment.CurrentDirectory}\tweet.txt";
+        private readonly string _messagesInputFilePath = $@"{Environment.CurrentDirectory}\InputFile\tweet.txt";
 
         public TwitterMessageCollectionTests()
         {
