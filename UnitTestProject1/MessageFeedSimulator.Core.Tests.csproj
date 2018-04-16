@@ -50,7 +50,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application\TwitterMessageFeedSimulatorServiceTests.cs" />
+    <Compile Include="Application.Tests\TwitterMessageFeedSimulatorServiceTests.cs" />
     <Compile Include="Data.Tests\TwitterMessageCollectionTests.cs" />
     <Compile Include="Domain.Tests\TwitterUserTests.cs" />
     <Compile Include="Mocks\MessagesWithOneThatIsGreaterThan140Characters.cs" />
@@ -71,7 +71,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="InputFile\tweet.txt" />
+    <Content Include="InputFile\tweet.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="InputFile\user.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

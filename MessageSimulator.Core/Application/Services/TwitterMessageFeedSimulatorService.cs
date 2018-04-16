@@ -101,7 +101,7 @@ namespace MessageSimulator.Core.Application.Services
                 TwitterUser user = users.FirstOrDefault(x => x.Name == message.Owner);
 
                 if(user == null)
-                    continue;//Continue
+                    continue;
 
                 user.Tweet(message.Text);
             }

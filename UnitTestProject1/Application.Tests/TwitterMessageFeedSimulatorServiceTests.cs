@@ -8,7 +8,7 @@ using MessageSimulator.Core.Infrustructure.Application;
 using MessageSimulator.Core.Infrustructure.Data;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MessageFeedSimulator.Core.Tests.Application
+namespace MessageFeedSimulator.Core.Tests.Application.Tests
 {
     [TestClass]
     public class TwitterMessageFeedSimulatorServiceTests
